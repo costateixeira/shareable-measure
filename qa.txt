@@ -1,0 +1,22 @@
+IGEmpty : Validation Results
+=========================================
+
+err = 1, warn = 3, info = 1
+IG Publisher Version: 1.8.13
+Generated Mon Feb 17 20:43:13 UTC 2025. FHIR version 4.0.1 for smart.who.int.ig-empty#0.1.0 (canonical = http://smart.who.int/ig-empty)
+ Build Errors : 5 / 1 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MyMeasure : 0 / 1 / 2
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MyMeasure.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Measure.extension: The reference http://hl7.org/fhir/ValueSet/version-algorithm could not be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyMeasure.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 433, column 441: The link 'version-algorithm.html' for "version-algorithm" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyMeasure.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 625, column 439: The link 'version-algorithm.html' for "version-algorithm" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyMeasure.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1360, column 441: The link 'version-algorithm.html' for "version-algorithm" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyMeasure.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1551, column 439: The link 'version-algorithm.html' for "version-algorithm" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json ==
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.meta.profile[0]: Profile reference 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-MyMeasure.json ==
+INFORMATION: StructureDefinition/MyMeasure: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/ig-empty/StructureDefinition/MyMeasure'): The Implementation Guide contains no examples for this profile

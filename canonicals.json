@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "smart.who.int.ig-empty",
+    "type" : "ImplementationGuide",
+    "url" : "http://smart.who.int/ig-empty/ImplementationGuide/smart.who.int.ig-empty",
+    "version" : "0.1.0",
+    "name" : "IGEmpty"
+  },
+  {
+    "id" : "MyMeasure",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/ig-empty/StructureDefinition/MyMeasure",
+    "version" : "0.1.0",
+    "name" : "MyMeasure"
+  }
+]
